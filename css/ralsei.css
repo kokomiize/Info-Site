@@ -1,0 +1,26 @@
+@charset "utf-8";
+@font-face {
+    font-family: "PixelOperatorMono";
+    src: url('../fonts/PixelOperatorMono-Bold.ttf') format('truetype') ;
+}
+@font-face {
+    font-family: "PixelOperatorMono";
+    src: url('../fonts/pixeloperatormono-bold.woff') format('woff') ;
+}
+
+html {
+    background: url(../images/DRbg.gif);
+    background-size: cover;
+}
+body{
+  color: white;
+  font-family: "PixelOperatorMono", Arial, sans-serif;
+  font-size: x-large;
+  text-align: center;
+}
+
+.raldance {
+    width: 190px;
+    height: auto;
+}
+

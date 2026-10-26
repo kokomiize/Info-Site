@@ -1,0 +1,57 @@
+@charset "utf-8";
+@font-face {
+    font-family: "PixelOperatorMono";
+    src: url('../fonts/PixelOperatorMono-Bold.ttf') format('truetype') ;
+}
+@font-face {
+    font-family: "PixelOperatorMono";
+    src: url('../fonts/pixeloperatormono-bold.woff') format('woff') ;
+}
+
+
+
+/* Main Structural Styles */
+
+html {
+    background: url(../images/GonerBg.gif);
+    background-size: cover;
+}
+
+
+h1 {
+  font-family: "PixelOperatorMono", Arial, sans-serif;
+}
+h2{
+font-size: 40px;
+font-family: "PixelOperatorMono", Arial, sans-serif;
+}
+p {
+  font-family: "PixelOperatorMono", Arial, sans-serif;
+  font-size: 40px
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+body{
+  color: white;
+}
+    p.big {
+  font-size: 35px;
+    }
+        p.bigger {
+  font-size: 35px;
+    }
+
+  
+a:link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
